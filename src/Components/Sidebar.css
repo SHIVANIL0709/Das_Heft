@@ -1,0 +1,95 @@
+.sidebar{
+position: absolute;
+width: 94px;
+height: 688px;
+left: 85px;
+top: 7rem;
+color: #004AAD;
+background-color: white;
+font-size: 30px;
+margin-left: -25px;
+justify-content: space-between;
+padding: 10px 0;
+}
+
+.label{
+    margin-top: -2.2rem;
+    margin-right: 1rem;
+    float: right;
+    font-size: 25px;
+}
+
+.dashboard{
+    float: left;
+    width: 160px;
+    clear: left;
+    height: 35px;
+    transition: 0s background-color;
+}
+
+.schedule{
+    float: left;
+    width: 144px;
+    clear: left;
+    height:35px;
+    margin-top: 10px;
+    transition: 0s background-color;
+}
+
+
+
+.memo{
+    float: left;
+    width: 120px;
+    clear: left;
+    height: 35px;
+    margin-top: 10px;
+    transition: 0s background-color;
+}
+
+.list{
+    float: left;
+    width: 100px;
+    clear: left;
+    height: 35px;
+    margin-top: 10px;
+    transition: 0s background-color;
+}
+
+
+
+.settings{
+    float: left;
+    width: 133px;
+    clear: left;
+    height: 35px;
+    margin-top: 10px;
+    transition: 0s background-color;
+}
+
+
+.dashboard:hover{
+    width: 180px;
+    background-color: #ccdcf1;
+    transition-delay:0s;
+}
+
+.schedule:hover{
+    width: 160px;
+    background-color: #ccdcf1;
+}
+
+.memo:hover{
+    width:130px;
+    background-color: #ccdcf1;
+}
+
+.list:hover{
+    width: 110px;
+    background-color: #ccdcf1;
+}
+
+.settings:hover{
+    width:158px;
+    background-color: #ccdcf1;
+}
